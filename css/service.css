@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Indie Flower', cursive;
+    src: url('../fonts/IndieFlower.ttf') format('truetype');
+}
+/* header stuff */
+
+header
+{
+    display: flex;
+    width: 100%;
+    background: url('../images/leavesBackground.png');
+    background-color: rgb(72, 131, 72);
+    background-repeat: none;
+    background-size: fill;
+    box-shadow: 0em 0.5em #477041;
+    z-index: 3;
+}
+h1{
+    font-size: 4em;
+    color: rgb(0, 63, 0);
+    text-shadow: rgb(103, 255, 103) 0em 0.05em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Indie Flower', cursive;
+    background: url("../images/treeBackground2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+header
+{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#mainImage > img
+{
+    padding-top: 20px;
+    width: 7.5em;
+}
+#headerText
+{
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    color: green;
+    padding-top: 15px;
+}
+#homeButton > a > figure > img {
+    position: relative;
+    padding-top: 20px;
+    width: 7.5em;
+}
+#homeButton > a > figure > figcaption
+{
+    text-align: center;
+}
+#homeButton
+{
+    transition: 0.1s;
+}
+#homeButton:hover
+{
+    transform: scaleY(1.1) translateY(-0.25em);
+    transition: 0.1s;
+}
+
+
+
+
+/*   */
+/* Nav styles */
+.contactStuff {
+    margin: 10px auto;
+}
+nav {
+    background-color: rgb(130, 172, 130);
+    margin: 0.5em 0em 0em 0em;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: black 0em 0.25em 0.25em;
+    z-index: 2;
+}
+nav div {
+    margin: 2em;
+    filter: grayscale(15%);
+    transition: 0.2s;
+    padding: 1em;
+    perspective: 100px;
+}
+nav > div:hover
+{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    transform: rotateX(15deg) skewX(-2deg);
+}
+nav .card {
+    background-color: #307927;
+    transition: 0.2s;
+}
+nav .card:hover {
+    background-color: #41b132;
+    transition: 0.2s;
+    box-shadow: 0em 0em 0em 0.5em green;
+    border-radius: 1em;
+}
+nav img {
+    width: 250px;
+    height: 250px;
+}
+figure{
+    text-decoration: none;
+}
+figcaption
+{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(163, 255, 163);
+    text-shadow: rgb(0, 0, 0) 0em 0em 0.2em;
+}
+
+/*  Articles styles */
+#main {
+    margin: auto;
+    background-color: rgba(91, 185, 81, 0.897);
+    font-size: 100%;
+    padding: 4em;
+    line-height: 2em;
+    text-indent: 5em;
+    box-sizing: border-box;
+}
+.spacer
+{
+    padding: none;
+}
+.section
+{
+    margin: 25px 0px 25px 0px;
+    background-color: rgb(114, 84, 65);
+    box-shadow: 0px 10px 0px 3px rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 4em;
+}
+.section > h2
+{
+    font-size: 2.5em;
+    text-shadow: green -0.05em 0.05em;   
+}
+#main > h2
+{
+    font-size: 3em;
+    text-align: center;
+    text-indent: 0em;
+    text-shadow: green -0.05em 0.05em; 
+}
+.section > p
+{
+    font-size: 1.5em;
+    color: rgb(0, 48, 0);
+    text-shadow: rgb(22, 156, 22) 0em 0.025em; 
+}
+
+.link {
+    opacity: .8;
+}
+h2 
+{
+    text-indent: 1em;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: #203a1c;
+    color: white;
+    box-shadow: 0 20px 0 0 #203a1c, 0 -0.5em 0 0 #477041;
+    padding-bottom: 2em;
+}
+footer p {
+    padding: 0.2em;
+    font-size: 2em;
+}
+footer > ul
+{
+    list-style: none;
+}
+footer > ul > li
+{
+    
+    margin: 0.25em;
+    width: 50%;
+    margin: auto;
+    margin-top: 0.2em;
+    transition: 0.1s;
+    border: solid rgba(0, 0, 0, 0.212) 0.1em;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+footer > ul > li > a
+{
+    font-size: 1.5em;
+    
+}
+footer > ul > li > a:hover
+{
+    font-size: 1.5em;
+    margin: 0.25em;
+    width: 50%;
+    margin: auto;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+/* works cited */
+footer > a
+{
+    font-size: 2em;
+}
+.citation{
+    text-indent: -2em;
+    padding-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/* extra mobile styles */
+@media only screen and (max-width: 700px)
+{
+    #main
+    {
+        padding: 2em;
+    }
+    .spacer
+    {
+        display: none;
+    }
+    .section > p
+    {
+        color: rgb(0, 0, 0);
+    }
+    .section
+    {
+        background-color: rgb(204, 126, 107);
+        margin: 25px 0px 25px 0px;
+    }
+}
